@@ -1,0 +1,46 @@
+# Local configuration and secrets
+configs/seirios_env.local.json
+configs/*.local.json
+configs/*secret*.json
+configs/*password*.json
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Test reports and logs
+reports/
+allure-results*/
+allure-report*/
+allure_results*/
+allure_report*/
+logs/
+*.log
+
+# Build and temporary output
+build/
+dist/
+*.tmp
+*.bak
+*.bak_*
+*.backup_*
+*.xlsx
+*.pdf
+
+# IDE and OS files
+.idea/
+.vscode/
+.claude/
+.codex-temp/
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini

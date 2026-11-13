@@ -1,0 +1,27 @@
+{
+  "paths": {
+    "workbook": ""
+  },
+  "collector": {
+    "host": "127.0.0.1",
+    "port": 22,
+    "user": "root",
+    "password_env": "SEIRIOS_SSH_PASSWORD"
+  },
+  "record_control": {
+    "host": "127.0.0.1",
+    "port": 22,
+    "user": "root",
+    "password_env": "SEIRIOS_RECORD_CONTROL_PASSWORD",
+    "log_dir": "/hst/paas/fsp-record/record-control/log"
+  },
+  "database": {
+    "host": "127.0.0.1",
+    "port": 3306,
+    "user": "",
+    "password_env": "SEIRIOS_DB_PASSWORD"
+  },
+  "store": {
+    "download_url_api": "http://127.0.0.1:28080/paas/store/v1/resource/url/download"
+  }
+}

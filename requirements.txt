@@ -1,0 +1,4 @@
+openpyxl>=3.1,<4
+paramiko>=3,<5
+PyMySQL>=1,<2
+rich>=13,<15
